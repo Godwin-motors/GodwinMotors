@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Godwin Motors</title>
+
+    <!-- Main Site CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Gallery CSS -->
+    <link rel="stylesheet" href="gallery.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- =========================
+         COPY YOUR EXISTING NAVBAR
+         FROM index.html HERE
+    ========================== -->
+     <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚙️</span>
+                <span class="logo-text">GODWIN MOTORS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </div>
+    </nav>
+
+
+
+    <!-- =========================
+         GALLERY HERO
+    ========================== -->
+    <section class="gallery-hero">
+
+        <!-- REPLACE WITH YOUR HERO IMAGE -->
+       <!-- HERO BACKGROUND IMAGE -->        
+
+
+        <div class="hero-content">
+
+            <span class="gallery-badge">
+                <i class="fas fa-camera"></i>
+                GODWIN MOTORS
+            </span>
+
+            <h1>Our Gallery</h1>
+
+            <p>
+                Explore our collection of Toyota spare parts,
+                shop activities and available inventory.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FILTER BUTTONS
+    ========================== -->
+    <section class="gallery-controls">
+
+        <button class="filter-btn active" data-filter="all">
+            <i class="fas fa-layer-group"></i>
+            All
+        </button>
+
+        <button class="filter-btn" data-filter="photo">
+            <i class="fas fa-image"></i>
+            Photos
+        </button>
+
+        <button class="filter-btn" data-filter="video">
+            <i class="fas fa-video"></i>
+            Videos
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         GALLERY GRID
+         JS WILL GENERATE ITEMS HERE
+    ========================== -->
+    <section class="gallery-section">
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item photo">
+            <img src="media/set.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/ga fro.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/bonnet pack.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/gal side.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/handshake.jpg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/car door.jpg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/light.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/warehouse.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/prod pack.jpg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/prod show.jpg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/bumber.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/front bumb.jpg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/for gal.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/front.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item photo">
+            <img src="media/one side.jpeg" alt="">
+            <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>Click to View</span>
+            </div>
+        </div>
+
+        <div class="gallery-item video" data-video="media/first.mp4">
+
+            <img src="media/bonnet pack.jpeg" alt="">
+
+            <div class="gallery-overlay">
+                <i class="fas fa-play"></i>
+                <span>Play Video</span>
+            </div>
+
+        </div>
+
+        <div class="gallery-item video" data-video="media/second.mp4">
+
+            <img src="media/bonner.jpeg" alt="">
+
+            <div class="gallery-overlay">
+                <i class="fas fa-play"></i>
+                <span>Play Video</span>
+            </div>
+
+</div>
+
+        <!-- ALL OTHER GALLERY ITEMS GO HERE -->
+
+    </div>
+
+</section>
+
+   
+
+    <!-- =========================
+         IMAGE LIGHTBOX
+    ========================== -->
+    <div class="lightbox" id="lightbox">
+
+        <span class="close-lightbox">&times;</span>
+
+        <button class="nav-btn prev-btn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <img id="lightboxImage" src="" alt="">
+
+        <button class="nav-btn next-btn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         VIDEO MODAL
+    ========================== -->
+    <div class="video-modal" id="videoModal">
+
+        <span class="close-video">&times;</span>
+
+        <video id="popupVideo" controls>
+            <source src="" type="video/mp4">
+        </video>
+
+    </div>
+
+
+    <!-- =========================
+         CALL TO ACTION
+    ========================== -->
+    <!-- =========================
+     CTA SECTION
+========================= -->
+
+<section class="gallery-cta">
+
+    <div class="cta-content">
+
+        <h2>Looking For A Specific Auto Part?</h2>
+
+        <p>
+            Send us a photo or part name and we'll help
+            you locate the exact genuine or replacement part you need. <br>
+            <span class="make">MAKE WE WORK!</span>
+
+        </p>
+
+            <a href="https://wa.me/2348020664479" class="cta-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            Chat With Us On WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">⚙️</span>
+                    <span>GODWIN MOTORS</span>
+                </div>
+                <p>© 2026 Godwin Motors. All Rights Reserved.<br>Located at Ladipo Market, Mushin, Lagos.</p>
+               <div class="social-links">
+    <a href="https://wa.me/2348020664479" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <a href="https://tiktok.com/@kelechionyeme" target="_blank">
+        <i class="fa-brands fa-tiktok"></i>
+    </a>
+
+    <a href="https://t.me/Godwinmotors" target="_blank">
+        <i class="fa-brands fa-telegram"></i>
+    </a>
+
+    <a href="https://www.instagram.com/ahmed_bell01" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      
+    </a>
+</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="gallery.js"></script>
+
+</body>
+</html>
